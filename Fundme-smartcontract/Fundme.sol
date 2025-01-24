@@ -23,6 +23,7 @@ contract Fundmenigga{
         funders.push(msg.sender);
         ammountdonated[msg.sender] = ammountdonated[msg.sender] + msg.value;
     }
+    
 
     
     function withdraw() public must {
